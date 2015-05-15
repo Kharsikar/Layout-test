@@ -1,0 +1,39 @@
+
+/*http://coolors.co/cacfd6-d6e5e3-9fd8cb-517664-2d3319*/
+
+@import url(http://fonts.googleapis.com/css?family=Muli:300,400);
+
+body {
+	font-family: font-family: 'Muli', sans-serif;;
+	font-size: 18px;
+	color: #517664;
+}
+
+header h1 {
+	text-align: center;
+	text-transform: uppercase;
+	position: fixed;
+
+}
+
+header p {
+	text-align: center;
+
+}
+
+nav img {
+	border-radius: 50%;
+	width: 100px;
+}
+
+.container {
+	max-width: 720px;
+	margin: 0 auto 0 auto;
+	border: solid 2px #2d3319;
+	padding: 0;
+}
+
+.highlight {
+	background: url('..images/exterior.png') no-repeat center;
+	background-size: cover;
+}
