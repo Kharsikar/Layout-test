@@ -1,39 +1,108 @@
 
 /*http://coolors.co/cacfd6-d6e5e3-9fd8cb-517664-2d3319*/
 
-@import url(http://fonts.googleapis.com/css?family=Muli:300,400);
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400);
 
 body {
-	font-family: font-family: 'Muli', sans-serif;;
+	font-family: 'Lato', sans-serif;
 	font-size: 18px;
+	line-height: 1.5;
 	color: #517664;
 }
 
+.container {
+	max-width: 960px;
+	margin: 0 auto 0 auto;
+	/*xborder: solid 2px #2d3319;*/
+}
+
+header {
+	background-color: #ffffff;
+	height: 100px;
+	position: fixed;
+	box-shadow: 0 0 10px rgba(159,216,203,0.3);
+	top: 0;
+	width: 100%;
+}
+
 header h1 {
+	font-size: 35px;
+	line-height: 1.5;
+	font-weight: 300;
 	text-align: center;
 	text-transform: uppercase;
-	position: fixed;
+	padding: 20px 0 0 0;
+}
+.showcase{
+	margin: 100px 0 0 0;
 
 }
 
-header p {
-	text-align: center;
-
-}
+/*nav {
+	margin: 120px 0 0 0;
+}*/
 
 nav img {
 	border-radius: 50%;
-	width: 100px;
+	padding: 20px 0 20px 0;
+	width: 150px;
 }
 
-.container {
-	max-width: 720px;
-	margin: 0 auto 0 auto;
-	border: solid 2px #2d3319;
-	padding: 0;
+nav p {
+	text-align: center;
+	padding: 10px 0 20px 0;
+
 }
 
-.highlight {
-	background: url('..images/exterior.png') no-repeat center;
+
+.circle {
+	text-align: center;
+}
+
+
+section {
+	/*border: solid 2px #2d3319;*/
+	padding: 40px 40px 40px 40px;
+}
+
+section p {
+	padding: 0 0 20px 0;
+	color: #686372;
+	font-weight: 100;
+}
+
+.btn {
+	background: url(../images/exterior.png) center no-repeat;
 	background-size: cover;
+	height: 60px;
+	width: 200px;
+	border-radius: 10%;
+}
+
+.btn a {
+	text-align: center;
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.btn a:hover {
+	text-decoration: underline;
+}
+
+
+.bg-img {
+	background: url(..images/exterior.png) no-repeat center;
+	background-size: cover;
+}
+
+h2 {
+	text-align: center;
+	font-size: 25px;
+	font-weight: 300;
+	text-transform: uppercase;
+	padding: 20px 0 20px 0;
+}
+
+small {
+	text-align: center;
 }
